@@ -1,0 +1,5 @@
+
+> advent-of-code-2022@1.0.0 2022-2:puzzle
+> ts-node 2/solution.ts puzzle.in
+
+Score: 12276

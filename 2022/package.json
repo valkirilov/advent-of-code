@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "2022-1:example": "ts-node 1/solution.ts example.in",
-    "2022-1:puzzle": "ts-node 1/solution.ts puzzle.in"
+    "2022-1:puzzle": "ts-node 1/solution.ts puzzle.in",
+    "2022-2:example:part-1": "ts-node 2/solution-part-1.ts example.in",
+    "2022-2:puzzle:part-1": "ts-node 2/solution-part-1.ts puzzle.in",
+    "2022-2:example:part-2": "ts-node 2/solution-part-2.ts example.in",
+    "2022-2:puzzle:part-2": "ts-node 2/solution-part-2.ts puzzle.in"
   },
   "author": "",
   "license": "ISC",
