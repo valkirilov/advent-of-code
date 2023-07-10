@@ -1,0 +1,6 @@
+
+> advent-of-code-2022@1.0.0 2022-1:puzzle
+> ts-node 1/solution.ts puzzle.in
+
+Max Elf Capacity: 68442
+Top 3 Elves Capacity: 204837
