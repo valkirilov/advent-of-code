@@ -1,0 +1,5 @@
+
+> advent-of-code-2022@1.0.0 2022-3:example:part-2
+> ts-node 3/solution-part-2.ts example.in
+
+Score: 70
