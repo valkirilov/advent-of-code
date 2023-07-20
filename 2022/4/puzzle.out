@@ -1,0 +1,6 @@
+
+> advent-of-code-2022@1.0.0 2022-4:puzzle
+> ts-node 4/solution.ts puzzle.in
+
+Result - Part 1: 657
+Result - Part 2: 938

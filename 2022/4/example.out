@@ -1,0 +1,6 @@
+
+> advent-of-code-2022@1.0.0 2022-4:example
+> ts-node 4/solution.ts example.in
+
+Result - Part 1: 2
+Result - Part 2: 4

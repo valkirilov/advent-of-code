@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { get } from "http";
 
 const argv = process.argv.slice(2);
 const inputFileName = argv[0] || "example.in";
