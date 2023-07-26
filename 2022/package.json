@@ -15,7 +15,9 @@
     "2022-3:example:part-2": "ts-node 3/solution-part-2.ts example.in",
     "2022-3:puzzle:part-2": "ts-node 3/solution-part-2.ts puzzle.in",
     "2022-4:example": "ts-node 4/solution.ts example.in",
-    "2022-4:puzzle": "ts-node 4/solution.ts puzzle.in"
+    "2022-4:puzzle": "ts-node 4/solution.ts puzzle.in",
+    "2022-5:example": "ts-node 5/solution.ts example.in",
+    "2022-5:puzzle": "ts-node 5/solution.ts puzzle.in"
   },
   "author": "",
   "license": "ISC",
