@@ -4,8 +4,21 @@
   "description": "Ho-ho-hooo, let's have some fun!",
   "main": "index.js",
   "scripts": {
-    "skeleton:example": "ts-node skeleton/solution.ts example.in",
-    "skeleton:puzzle": "ts-node skeleton/solution.ts puzzle.in"
+    "2023-1:example-part-1": "ts-node 1/solution-part-1.ts example-part-1.in",
+    "2023-1:puzzle-part-1": "ts-node 1/solution-part-1.ts puzzle.in",
+    "2023-1:example-part-2": "ts-node 1/solution-part-2.ts example-part-2.in",
+    "2023-1:puzzle-part-2": "ts-node 1/solution-part-2.ts puzzle.in",
+
+    "2023-2:example-part-1": "ts-node 2/solution-part-1.ts example-part-1.in",
+    "2023-2:puzzle-part-1": "ts-node 2/solution-part-1.ts puzzle-part-1.in",
+    "2023-2:example-part-2": "ts-node 2/solution-part-2.ts example-part-2.in",
+    "2023-2:puzzle-part-2": "ts-node 2/solution-part-2.ts puzzle-part-2.in",
+
+    "skeleton:example-part-1": "ts-node skeleton/solution-part-1.ts example.in",
+    "skeleton:puzzle-part-1": "ts-node skeleton/solution-part-1.ts puzzle.in",
+    "skeleton:example-part-2": "ts-node skeleton/solution-part-2.ts example.in",
+    "skeleton:puzzle-part-2": "ts-node skeleton/solution-part-2.ts puzzle.in"
+    
   },
   "author": "",
   "license": "ISC",
