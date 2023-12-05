@@ -2,6 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "types": ["node"],
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2019", "dom"],
+    "target": "es2015"
   }
 }
