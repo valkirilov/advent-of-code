@@ -1,0 +1,5 @@
+> advent-of-code-2023@2.0.2.3 2023-8:puzzle-part-1
+> ts-node 8/solution-part-1.ts puzzle.in
+
+[ 20513, 18827, 17141, 22199, 12083, 13207 ]
+13385272668829
