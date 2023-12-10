@@ -1,0 +1,15 @@
+
+> advent-of-code-2023@2.0.2.3 2023-10:example-part-2-1
+> ts-node 10/solution-part-2.ts example-part-2-1.in
+
+Final map:
+OOOOOOOOOOO
+O┌───────┐O
+O│┌─────┐│O
+O││OOOOO││O
+O││OOOOO││O
+O│└─┐O┌─┘│O
+O│II│O│II│O
+O└──┘O└──┘O
+OOOOOOOOOOO
+4

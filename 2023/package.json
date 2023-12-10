@@ -13,7 +13,7 @@
     "2023-2:puzzle-part-1": "ts-node 2/solution-part-1.ts puzzle-part-1.in",
     "2023-2:example-part-2": "ts-node 2/solution-part-2.ts example-part-2.in",
     "2023-2:puzzle-part-2": "ts-node 2/solution-part-2.ts puzzle-part-2.in",
-
+    
     "2023-3:example-part-1": "ts-node 3/solution-part-1.ts example.in",
     "2023-3:puzzle-part-1": "ts-node 3/solution-part-1.ts puzzle.in",
     "2023-3:example-part-2": "ts-node 3/solution-part-2.ts example.in",
@@ -23,32 +23,40 @@
     "2023-4:puzzle-part-1": "ts-node 4/solution-part-1.ts puzzle.in",
     "2023-4:example-part-2": "ts-node 4/solution-part-2.ts example.in",
     "2023-4:puzzle-part-2": "ts-node 4/solution-part-2.ts puzzle.in",
-
+    
     "2023-5:example-part-1": "ts-node 5/solution-part-1.ts example.in",
     "2023-5:puzzle-part-1": "ts-node 5/solution-part-1.ts puzzle.in",
     "2023-5:example-part-2": "ts-node 5/solution-part-2.ts example.in",
     "2023-5:puzzle-part-2": "ts-node 5/solution-part-2.ts puzzle.in",
-
+    
     "2023-6:example-part-1": "ts-node 6/solution-part-1.ts example.in",
     "2023-6:puzzle-part-1": "ts-node 6/solution-part-1.ts puzzle.in",
     "2023-6:example-part-2": "ts-node 6/solution-part-2.ts example.in",
     "2023-6:puzzle-part-2": "ts-node 6/solution-part-2.ts puzzle.in",
-
+    
     "2023-7:example-part-1": "ts-node 7/solution-part-1.ts example.in",
     "2023-7:puzzle-part-1": "ts-node 7/solution-part-1.ts puzzle.in",
     "2023-7:example-part-2": "ts-node 7/solution-part-2.ts example.in",
     "2023-7:puzzle-part-2": "ts-node 7/solution-part-2.ts puzzle.in",
-
+    
     "2023-8:example-part-1": "ts-node 8/solution-part-1.ts example.in",
     "2023-8:puzzle-part-1": "ts-node 8/solution-part-1.ts puzzle.in",
     "2023-8:example-part-2": "ts-node 8/solution-part-2.ts example.in",
     "2023-8:puzzle-part-2": "ts-node 8/solution-part-2.ts puzzle.in",
-
+    
     "2023-9:example-part-1": "ts-node 9/solution-part-1.ts example.in",
     "2023-9:puzzle-part-1": "ts-node 9/solution-part-1.ts puzzle.in",
     "2023-9:example-part-2": "ts-node 9/solution-part-2.ts example.in",
     "2023-9:puzzle-part-2": "ts-node 9/solution-part-2.ts puzzle.in",
-
+    
+    "2023-10:example-part-1-1": "ts-node 10/solution-part-1.ts example-part-1-1.in",
+    "2023-10:example-part-1-2": "ts-node 10/solution-part-1.ts example-part-1-2.in",
+    "2023-10:puzzle-part-1": "node --stack-size=8000 -r ts-node/register 10/solution-part-1.ts puzzle.in",
+    "2023-10:example-part-2-1": "ts-node 10/solution-part-2.ts example-part-2-1.in",
+    "2023-10:example-part-2-2": "ts-node 10/solution-part-2.ts example-part-2-2.in",
+    "2023-10:example-part-2-3": "ts-node 10/solution-part-2.ts example-part-2-3.in",
+    "2023-10:puzzle-part-2": "node --stack-size=8000 -r ts-node/register 10/solution-part-2.ts puzzle.in",
+    
     "skeleton:example-part-1": "ts-node skeleton/solution-part-1.ts example.in",
     "skeleton:puzzle-part-1": "ts-node skeleton/solution-part-1.ts puzzle.in",
     "skeleton:example-part-2": "ts-node skeleton/solution-part-2.ts example.in",
@@ -57,11 +65,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "ts-node": "^10.9.1"
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
-    "prettier": "3.1.0"
+    "prettier": "3.1.0",
+    "ts-node": "^10.9.2"
   }
 }
