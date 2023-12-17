@@ -76,17 +76,22 @@
     "2023-14:puzzle-part-1": "ts-node 14/solution-part-1.ts puzzle.in",
     "2023-14:example-part-2": "ts-node 14/solution-part-2.ts example.in",
     "2023-14:puzzle-part-2": "ts-node 14/solution-part-2.ts puzzle.in",
-
+   
     "2023-15:example-part-1": "ts-node 15/solution-part-1.ts example.in",
     "2023-15:puzzle-part-1": "ts-node 15/solution-part-1.ts puzzle.in",
     "2023-15:example-part-2": "ts-node 15/solution-part-2.ts example.in",
     "2023-15:puzzle-part-2": "ts-node 15/solution-part-2.ts puzzle.in",
-
+    
     "2023-16:example-part-1": "ts-node 16/solution-part-1.ts example.in",
     "2023-16:puzzle-part-1": "ts-node 16/solution-part-1.ts puzzle.in",
     "2023-16:example-part-2": "ts-node 16/solution-part-2.ts example.in",
     "2023-16:puzzle-part-2": "ts-node 16/solution-part-2.ts puzzle.in",
-
+    
+    "2023-17:example-part-1": "node --stack-size=8000 -r ts-node/register 17/solution-part-1.ts example.in",
+    "2023-17:puzzle-part-1": "node --stack-size=8000 -r ts-node/register  17/solution-part-1.ts puzzle.in",
+    "2023-17:example-part-2": "node --stack-size=18000 -r ts-node/register  17/solution-part-2.ts example.in",
+    "2023-17:puzzle-part-2": "node --stack-size=8000 -r ts-node/register  17/solution-part-2.ts puzzle.in",
+    
     "skeleton:example-part-1": "ts-node skeleton/solution-part-1.ts example.in",
     "skeleton:puzzle-part-1": "ts-node skeleton/solution-part-1.ts puzzle.in",
     "skeleton:example-part-2": "ts-node skeleton/solution-part-2.ts example.in",
@@ -104,6 +109,7 @@
     "crypto-js": "^4.2.0",
     "lodash": "^4.17.21",
     "prettier": "3.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "ts-priority-queue": "^0.1.1"
   }
 }
