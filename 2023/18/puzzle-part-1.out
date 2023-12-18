@@ -1,0 +1,5 @@
+
+> advent-of-code-2023@2.0.2.3 2023-18:puzzle-part-1
+> node --stack-size=8000 -r ts-node/register 18/solution-part-1.ts puzzle.in
+
+Field area: 28911
