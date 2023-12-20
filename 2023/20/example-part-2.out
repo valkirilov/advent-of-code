@@ -1,0 +1,8 @@
+
+> advent-of-code-2023@2.0.2.3 2023-20:example-part-2
+> ts-node 20/solution-part-2.ts example-2.in
+
+Output module: { name: 'con', type: '&', connections: [ 'output' ] }
+Output feed modules: [ 'a', 'b' ]
+Solution found after 1 iterations
+Solution: 1

@@ -1,0 +1,5 @@
+
+> advent-of-code-2023@2.0.2.3 2023-20:example-part-1-1
+> ts-node 20/solution-part-1.ts example-1.in
+
+Solution: 32000000

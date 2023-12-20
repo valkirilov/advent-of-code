@@ -1,0 +1,8 @@
+
+> advent-of-code-2023@2.0.2.3 2023-20:puzzle-part-2
+> ts-node 20/solution-part-2.ts puzzle.in
+
+Output module: { name: 'hj', type: '&', connections: [ 'rx' ] }
+Output feed modules: [ 'ks', 'jf', 'qs', 'zk' ]
+Solution found after 4013 iterations
+Solution: 240914003753369
