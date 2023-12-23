@@ -1,0 +1,9 @@
+
+> advent-of-code-2023@2.0.2.3 2023-23:example-part-2
+> ts-node 23/solution-part-2.ts example.in
+
+New max: 82
+New max: 110
+New max: 150
+New max: 154
+Longest path: 154

@@ -1,0 +1,5 @@
+
+> advent-of-code-2023@2.0.2.3 2023-23:puzzle-part-2
+> ts-node 23/solution-part-2.ts puzzle.in
+
+Longest path: 6734
