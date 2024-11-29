@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2021", "dom"],
+    "target": "es2015",
+    "moduleResolution": "NodeNext"
+  }
+}
