@@ -1,0 +1,5 @@
+
+> advent-of-code-2024@2.0.2.4 2024-5:puzzle-part-2
+> NODE_OPTIONS='--max-old-space-size=18192' ts-node 5/solution-part-2.ts puzzle.in
+
+4828
