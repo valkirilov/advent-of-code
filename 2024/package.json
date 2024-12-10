@@ -46,6 +46,7 @@
     "2024-10:example-part-2-1": "ts-node 10/solution-part-2.ts example-part-2-1.in",
     "2024-10:example-part-2-2": "ts-node 10/solution-part-2.ts example-part-2-2.in",
     "2024-10:example-part-2-3": "ts-node 10/solution-part-2.ts example-part-2-3.in",
+    "2024-10:example-part-2-4": "ts-node 10/solution-part-2.ts example-part-2-4.in",
     "2024-10:puzzle-part-2": "node --stack-size=8000 -r ts-node/register 10/solution-part-2.ts puzzle.in",
     "2024-11:example-part-1": "ts-node 11/solution-part-1.ts example.in",
     "2024-11:puzzle-part-1": "ts-node 11/solution-part-1.ts puzzle.in",
