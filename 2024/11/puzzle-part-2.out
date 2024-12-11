@@ -1,0 +1,5 @@
+
+> advent-of-code-2024@2.0.2.4 2024-11:puzzle-part-2
+> node --stack-size=8000 -r ts-node/register 11/solution-part-2.ts puzzle.in
+
+229557103025807
