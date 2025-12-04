@@ -11,58 +11,34 @@ function readInput(input: string[]): string[] {
 
 function findMaxJoltage(batteries: string[]): number {
   return batteries.reduce((max, battery) => {
-    max += findMaxJoltageBattery(battery);
+    max += maxSubsequence(battery);
 
     return max;
   }, 0);
 }
 
-function findMaxJoltageBattery(battery: string): number {
-  let maxJoltage = 0;
+function maxSubsequence(num: string, k = 12): number {
+  const stack: string[] = [];
+  const n = num.length;
+  let toRemove = n - k;
 
-  const size = battery.length;
-  const ones = 12; // Number of 1s in the bitmask
+  for (let i = 0; i < n; i++) {
+    const digit = num[i];
 
-  // Use Gosper's hack with BigInt to iterate through all combinations with exactly 12 ones
-  let mask = (1n << BigInt(ones)) - 1n; // Start with rightmost 12 ones
-  const limit = 1n << BigInt(size); // Maximum value for size bits
-
-  let count = 0;
-  while (mask < limit) {
-    const joltage = findSumJoltage(battery, mask);
-    maxJoltage = Math.max(maxJoltage, joltage);
-    count++;
-
-    // Gosper's hack with BigInt: get next number with same number of 1 bits
-    const c = mask & -mask;
-    const r = mask + c;
-    mask = (((r ^ mask) >> 2n) / c) | r;
-  }
-
-  console.log(`Checked ${count} permutations`);
-
-  return maxJoltage;
-}
-
-function findSumJoltage(battery: string, mask: bigint): number {
-  let sum = "";
-  for (let i = 0; i < battery.length; i++) {
-    // Check if bit at position i is set (reading from left to right in battery)
-    if (mask & (1n << BigInt(battery.length - 1 - i))) {
-      sum = `${sum}${battery[i]}`;
+    while (
+      toRemove > 0 &&
+      stack.length > 0 &&
+      stack[stack.length - 1] < digit
+    ) {
+      stack.pop();
+      toRemove--;
     }
+
+    stack.push(digit);
   }
 
-  return Number(sum);
-}
-
-function countOnes(n: number): number {
-  let count = 0;
-  while (n) {
-    count += n & 1;
-    n >>= 1;
-  }
-  return count;
+  // In case we didn't remove enough digits
+  return Number(stack.slice(0, k).join(""));
 }
 
 // Enough helpers, let's solve the problem
